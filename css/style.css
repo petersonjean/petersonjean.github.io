@@ -1,0 +1,189 @@
+body{
+  /*background-color: #eee;*/
+}
+nav{ 
+  position:fixed !important;
+  top:0px !important;
+  width:100% !important;
+  background-color:#F3EFE0 !important;
+  margin-bottom:0px  ;
+  box-shadow: 0px 2px 2px 1px  #217C7E ;
+}
+.navbar-brand { 
+	font-size: 4em;
+  color:#9A3334 !important;
+}
+.menu-item{ 
+  color:  #217C7E !important;
+  height:100%;
+  width:auto;
+  margin:0px 0px 0px 0px;
+  padding:1%;
+  font-family:Baloo Bhaina;
+  
+}
+.menu-item a{
+  color:inherit;
+  text-decoration: none;
+}
+.menu-item:hover{
+  height:2%;
+  background-color:#9A3334;
+  color:white !important;
+} 
+.active{ 
+  background-color:#9A3334;
+  color:white !important;
+} 
+.body-wrapper{
+  width:85%;
+  margin:auto;
+  margin-top:0px;
+  box-shadow: 0px 0px 2px 1px #F3EFE0;
+  background-color: #217C7E;
+  
+}
+.project-view{
+  margin:0% 2% 0% 2% ;
+}
+.img-home{
+  min-width: -moz-available;
+  min-width: -webkit-fill-available;
+  position:relative;
+}
+
+.home-text{
+  color:#ffffff;
+  /*color: #3399FF;*/ 
+  background:  #217C7E;
+  opacity:0.6;
+  padding:1%;
+  font-family:Yatra One;
+  font-size:5em;
+  position:absolute;
+  top:20%; 
+  left:35%;
+}
+.home-text:hover{
+  background-color: #9A3334; 
+  color:#217C7E;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;  
+}
+.img-circle{
+  width:25%;
+  height:25%;
+}
+/*.separator-span{ 
+  font-size:2em;
+  positon:relative;
+  display:inline-block;
+  top:-1.4em;
+  padding:0.25em;
+  margin-bottom:0.5%;
+  
+}*/
+.separator{ 
+  font-family:Baloo Bhaina;
+  color:#FF9900;
+  margin:0;
+  padding:0;
+}
+hr{
+  border-top:3px solid #F3EFE0;
+  width:30%;
+  text-align:center;
+  margin:auto; 
+  padding:0.5%;
+}
+ #about{
+  margin-top:5%;
+  margin-bottom:0; 
+   color: #F3EFE0 ;
+   padding:2%;
+}
+#portfolio{
+  margin-top:5%;
+  margin-bottom:0; 
+}
+#contact{
+  margin-top:5%;
+  margin-bottom:0; 
+}
+#home{
+  margin-top:5%; 
+}
+
+.form-container{
+  background:  #2F3EFE0 !important;
+  opacity:0.5; 
+  margin:0px;
+  padding:auto;
+}
+.form-input{
+  display:block;  
+  margin:auto;
+  margin-top:0.5%;
+  font-size:2em;
+  width:90%;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity:1;
+  color:black;
+  
+}
+.button-submit{
+  width:25%;
+  margin-bottom:1%;
+  border-radius:3px;
+  opacity:1 !important;
+}
+.myquote-home{
+  padding:2%;
+}
+.myquote-comment{
+  font-family: Pacifico;
+  color:#fff; 
+  /*background-color:#F3EFE0 !important;*/
+  margin:0px;
+  opacity:0.6;
+  padding:2%;
+}
+.social-link{
+  height:15%;
+  width:100%;
+  padding:2%;
+  box-shadow: 0px 2px 2px 1px  #217C7E ;
+ /*background-color:#9A3334;*/
+  background-color:#F3EFE0;
+}
+.social-link i{
+  color: #217C7E;
+  border:3px solid #217C7E;
+  border-radius:50%;
+  width: 50px;
+  height: 50px;
+  font-size:2.5em;
+  padding:0.5%; 
+  text-align:center;
+}
+.social-link i:hover{
+  color:  #F3EFE0;
+  background-color:#9A3334 ;
+  border:3px solid #9A3334;
+   
+}
+.social-text{
+  font-family:Yatra One;
+  font-size:2em;
+  color:#217C7E;
+}
+.footer{ 
+  font-family:Yatra One;
+  font-size:1em; 
+  color:#F3EFE0;
+  background-color:#9A3334;
+  padding:1%; 
+}
+ 
