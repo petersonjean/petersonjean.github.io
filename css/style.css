@@ -8,14 +8,36 @@ hr:after {
   display:table;
   clear:both;
 }
-.img-circle{
-  width:25%;
-  height:25%;
-}
+
 .thumbnail{
   margin-bottom: 20px !important;
 margin-left: 20px !important;
 margin-right: 20px !important;
+}
+#about{
+  margin:0;
+  margin-top:5%;
+  color: #F3EFE0 ;
+  padding:2%;
+}
+#portfolio{
+ margin:0;
+ margin-top:5%;
+
+}
+#contact{
+  margin-bottom:0;
+ margin-top:5%;
+
+}
+#home{
+ margin-top:5%;
+}
+.home-text:hover{
+  background-color: #9A3334;
+  color:#217C7E;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
 }
 .social-link{
   height:15%;
@@ -106,9 +128,14 @@ margin-right: 20px !important;
     .project-view{
       margin:0% 2% 0% 2% ;
     }
+    .img-circle{
+      width:35%;
+      height:35%;
+    }
     .img-home{
       min-width: -moz-available;
       min-width: -webkit-fill-available;
+      min-width: available;
       position:relative;
     }
 
@@ -124,12 +151,7 @@ margin-right: 20px !important;
       top:20%;
       left:35%;
     }
-    .home-text:hover{
-      background-color: #9A3334;
-      color:#217C7E;
-        -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-        animation: mymove 5s infinite;
-    }
+
 
     /*.separator-span{
       font-size:2em;
@@ -155,23 +177,7 @@ margin-right: 20px !important;
       margin:auto;
 
     }
-     #about{
-      margin-top:5%;
-      margin-bottom:0;
-       color: #F3EFE0 ;
-       padding:2%;
-    }
-    #portfolio{
-      margin-top:5%;
-      margin-bottom:0;
-    }
-    #contact{
-      margin-top:5%;
-      margin-bottom:0;
-    }
-    #home{
-      margin-top:5%;
-    }
+
 
     .form-container{
       background:  #2F3EFE0 !important;
@@ -216,6 +222,7 @@ margin-right: 20px !important;
 
 }
 @media   (max-width : 480px) {
+
   .body-wrapper{
     width:85%;
     margin:auto;
@@ -224,6 +231,10 @@ margin-right: 20px !important;
     box-shadow: 0px 0px 2px 1px #F3EFE0;
     background-color: #217C7E;
 
+  }
+  .img-circle{
+    width:45%;
+    height:45%;
   }
   .menu-mobile-icon{
     display:inline-block;
@@ -259,6 +270,7 @@ margin-right: 20px !important;
   .navbar-brand{
     visibility: visible;
     float: right;
+    font-size: 2em !important;
   }
   .nav > ul{
     display:block;
@@ -267,7 +279,8 @@ margin-right: 20px !important;
     display: inline-block;
   }
   .menu-item{
-    height:30px;
+    height:100%;
+    width: auto;
     color:inherit;
     text-decoration: none !important;
   }
@@ -287,6 +300,21 @@ margin-right: 20px !important;
     background-color:#9A3334;
     color:white !important;
   }
+.home-text{
+
+    color: #ffffff;
+    /* color: #3399FF; */
+    background: #217C7E;
+    opacity: 0.6;
+    padding: 1%;
+    font-family: Yatra One;
+    font-size: 2.5em;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 70%;
+}
   .form-container{
     background:  #2F3EFE0 !important;
     opacity:0.5;
