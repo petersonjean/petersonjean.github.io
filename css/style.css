@@ -1,3 +1,13 @@
+nav:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+hr:after {
+  content:"";
+  display:table;
+  clear:both;
+}
 .img-circle{
   width:25%;
   height:25%;
@@ -44,7 +54,7 @@ margin-right: 20px !important;
   padding:1%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 418px) {
     /* For desktop: */
 
     body{
@@ -58,6 +68,7 @@ margin-right: 20px !important;
       margin-bottom:0px  ;
       box-shadow: 0px 2px 2px 1px  #217C7E ;
     }
+
     .navbar-brand {
     	font-size: 4em !important;
       color:#9A3334 !important;
@@ -192,18 +203,28 @@ margin-right: 20px !important;
     .myquote-home{
       padding:2%;
     }
-    .myquote-comment{
+    .myquote-comment p{
       font-family: Pacifico;
       color:#fff;
       /*background-color:#F3EFE0 !important;*/
       margin:0px;
       opacity:0.6;
       padding:2%;
+      font-size: 2em;
     }
 
 
 }
-@media only screen and (max-width : 480px) {
+@media   (max-width : 480px) {
+  .body-wrapper{
+    width:85%;
+    margin:auto;
+    padding: auto;
+    margin-top:0px;
+    box-shadow: 0px 0px 2px 1px #F3EFE0;
+    background-color: #217C7E;
+
+  }
   .menu-mobile-icon{
     display:inline-block;
     cursor: pointer;
@@ -266,6 +287,46 @@ margin-right: 20px !important;
     background-color:#9A3334;
     color:white !important;
   }
-  
+  .form-container{
+    background:  #2F3EFE0 !important;
+    opacity:0.5;
+    margin:0px;
+    padding:auto;
+  }
+  .form-input{
+    display:block;
+    margin:auto;
+    margin-top:0.5%;
+    font-size:1em;
+    width:90%;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity:1;
+    color:black;
+
+  }
+  .button-submit{
+    width:25%  !important;
+    font-size:1em  !important;
+    margin:auto  !important;
+    margin-bottom:1%  !important;
+    border-radius:3px  !important;
+    opacity:1 !important;
+  }
+  .myquote-home{
+    padding:2%;
+    font-size: 1.5em;
+  }
+  .myquote-comment p{
+    font-family: Pacifico;
+    color:#fff;
+    /*\background-color:#F3EFE0 !important;*/
+    margin:0px;
+    opacity:0.6;
+    padding:2%;
+    font-size: 1em;
+    text-align: center;
+  }
 
 }
