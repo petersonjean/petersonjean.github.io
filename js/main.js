@@ -2,7 +2,7 @@
 function animationBtnMenu(bar){
  bar.classList.toggle("animation-btn-menu");
 $(".nav").toggle("show",function(){
-  
+
 });
 }
 
@@ -11,8 +11,12 @@ $(document).ready(function(){
   $(".menu-item a").click(function(){
                     $(".active").removeClass("active");
                     $(this).closest('li').addClass("active");
+
+                    if( $(window).width() < 480){
+                      $(".nav").hide();
+                      $(".menu-mobile-icon").removeClass('animation-btn-menu');
+                    }
                            });
-  $(".menu-icon").hide();
 
 
   //changing menu depepnding on screen size
